@@ -5,7 +5,7 @@
 </script>
 
 <div class="boost bg">
-    <div class="boost" style="width: {percent}%" />
+    <div class="boost" style="width: {percent}%"></div>
 </div>
 
 <style>
@@ -13,6 +13,7 @@
         position: relative;
         height: 50px;
         background-color: pink;
+        transition: width 0.5s ease;
     }
     .bg {
         width: 300px;

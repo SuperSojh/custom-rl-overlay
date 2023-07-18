@@ -8,7 +8,6 @@
 
 <main>
   {#if $targetPlayer?.name}
-    {console.log('t')}
-    <Boost percent="{$targetPlayer.boost}" />
+    <Boost percent="{$targetPlayer.boost}"/>
   {/if}
 </main>
